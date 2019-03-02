@@ -2,7 +2,7 @@
 
 Create My Portfolio { Need To Be updated As soon as Possible!!! many now skils learned thanks to my actual training courses :)} 
 
-**Using HTML , Bootstrap , CSS (Flex Box and animations) and Javascriptfor DOM manipulation 
+**Using HTML , Bootstrap , CSS (Flex Box and animations) 
 
      * Home.html : Animation Page with redirect to my Portfolio
      * index.html : My Portfolio
