@@ -1,6 +1,6 @@
 **** HTML & CSS Project****
 
-Create My Portfolio { Need To Be updated As soon as Possible!!! many now skils learned thanks to my actual training courses :)} 
+Create My Portfolio { Need To Be updated As soon as Possible!!! many now skills learned thanks to my actual training courses :)} 
 
 **Using HTML , Bootstrap , CSS (Flex Box and animations) 
 
