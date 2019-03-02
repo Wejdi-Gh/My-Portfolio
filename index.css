@@ -1,0 +1,243 @@
+body {
+  background: url(best-website-backgrounds.jpg) no-repeat fixed;
+  background-size: cover;
+
+
+}
+
+.nav-tabs {
+  position: sticky;
+  top: 0;
+  background: url(best-website-backgrounds.jpg) no-repeat fixed;
+  background-size: cover;
+  z-index: 1;
+}
+
+/* debut home page */
+#carouselExampleIndicators,
+.carousel img {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+
+#carouselExampleIndicators {
+  box-shadow: 0 0 3px 3px #b9bbbd;
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+/* fin home page */
+/* debut my projects page */
+.myprojects h1 {
+  text-align: center;
+  margin-top: 70px;
+  color: brown;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: white
+}
+
+.learning {
+  margin-top: 50px;
+  font-size: 30px;
+  color: brown;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  padding-left: 20px;
+
+}
+
+.projectscard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectscard h5 {
+  color: brown;
+}
+
+/* fin my projects page */
+
+/* debut contact me page */
+
+form {}
+
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 300px;
+}
+
+.contactme {
+  margin: 30px;
+
+}
+
+.contactme p {
+
+  color: #C0C0C0;
+
+}
+
+.contactme h2 {
+  color: white;
+
+}
+
+p i {
+  color: white;
+
+}
+
+.ligne {
+  border: 0.2px solid white;
+  width: 200px;
+  margin-left: 0px;
+}
+
+.submitbutton {
+  height: 30px;
+  width: 200px;
+}
+
+.contactinput {
+  height: 40px;
+
+}
+
+.message {
+  height: 80px;
+
+}
+
+
+.fa-map-marker-alt,
+.fa-phone,
+.fa-at {
+
+  color: white;
+  margin-right: 8px;
+}
+
+.mycontact p,
+.sendme {
+  font-size: 18px;
+}
+
+/* fin contact me page */
+
+/* debut my profil page */
+
+.myphoto {
+
+  width: 150px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 3px white;
+
+}
+
+.aboutme {
+  position: fixed;
+  right: 0;
+  text-align: center;
+  border-left: 2px solid white;
+}
+
+.road-resume p,
+.aboutme p {
+  text-align: justify;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+}
+
+.aboutme p {
+  font-size: 14px;
+}
+
+.road-resume h3 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: brown;
+
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.sub-title {
+  display: flex;
+  color: #007BFF;
+}
+
+.sub-title h4 {
+  margin-left: 10px;
+}
+
+.socialmedia a {
+  margin: 20px;
+
+}
+
+.aboutme h3 {
+  color: brown;
+
+}
+
+
+/* fin my profil page */
